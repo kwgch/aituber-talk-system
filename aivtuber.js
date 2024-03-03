@@ -16,10 +16,10 @@ const INTERVAL_MILL_SECONDS_RETRIEVING_COMMENTS = 10000;
 const INTERVAL_MILL_SECONDS_HANDLING_COMMENTS = 3000;
 
 // VOICEVOXのSpeakerID
-const VOICEVOX_SPEAKER_ID = "10";
+const VOICEVOX_SPEAKER_ID = "7";
 
 // Live2dモデルのフォルダ内にあるmodel3.jsonファイルへのパスを記載
-const modelPath = "./Uniform01_44/Uniform01_44.model3.json";
+const modelPath = "./Zundamon_vts/zundamon.model3.json"
 
 var audio = new Audio();
 // 処理するコメントのキュー

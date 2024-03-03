@@ -1,5 +1,29 @@
 # これは何か
-チャット欄に寄せられるコメントに自動で応答をしながら進行をする、AIによるYouTube LIVE配信を行うためのサンプルです。
+チャット欄に寄せられるコメントにずんだもんが自動で応答をしながら進行をする、AIによるYouTube LIVE配信を行うためのサンプルです。
+
+ずんだもんのLive2Dモデルは[こちら](https://tohozunko.booth.pm/items/5363599)を使わせていただきました。
+
+`aivtuber.js`の下記VOICEVOX用設定をずんだもんにしています。
+
+```js
+// VOICEVOXのSpeakerID
+const VOICEVOX_SPEAKER_ID = "7";
+```
+
+YouTube LIVE配信を行う場合は下記クレジットを概要に記載してください。
+
+```
+VOICEVOX：ずんだもん
+```
+
+参考: [VOICEVOX　音源利用規約](https://zunko.jp/con_ongen_kiyaku.html)
+
+# 継承元のリポジトリ2
+https://github.com/highball-pte-ltd/aituber-talk-system
+
+[highball-pte-ltdさん](https://github.com/highball-pte-ltd)さん、ありがとうございます。
+
+このリポジトリは、上記を改造し、ずんだもんとおしゃべりできるようにしたものです。
 
 # 継承元のリポジトリ
 https://github.com/k-masashi/sample-chat-ai-vtuber
